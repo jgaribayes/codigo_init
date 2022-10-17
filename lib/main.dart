@@ -1,3 +1,4 @@
+import 'package:codigo_init/calulator_page.dart';
 import 'package:codigo_init/challeng2_page.dart';
 import 'package:codigo_init/challenge3_page.dart';
 import 'package:codigo_init/challenge4_page.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Challenge4page()
+        home: SimpleCalculator()
     );
   }
 }
